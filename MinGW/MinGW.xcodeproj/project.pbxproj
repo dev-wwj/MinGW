@@ -143,6 +143,28 @@
 		7FAA1517291E764900775CB3 /* SpeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA1516291E764900775CB3 /* SpeedViewController.m */; };
 		7FAA151A291E76BD00775CB3 /* CompassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA1519291E76BD00775CB3 /* CompassViewController.m */; };
 		7FAA151D291E76E500775CB3 /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA151C291E76E500775CB3 /* LogViewController.m */; };
+		C6034777291E7BC800C25C4C /* CompassView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6034776291E7BC800C25C4C /* CompassView.m */; };
+		C603477B291E896100C25C4C /* UIButton+extentedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C603477A291E896100C25C4C /* UIButton+extentedButton.m */; };
+		C603477E291E8A6200C25C4C /* UIView+GradientColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C603477C291E8A6200C25C4C /* UIView+GradientColor.m */; };
+		C6034781291E903900C25C4C /* CacheUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = C603477F291E903900C25C4C /* CacheUnit.m */; };
+		C6034792291E984D00C25C4C /* LDNetTraceRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = C6034785291E984D00C25C4C /* LDNetTraceRoute.m */; };
+		C6034793291E984D00C25C4C /* LDNetTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = C6034786291E984D00C25C4C /* LDNetTimer.m */; };
+		C6034794291E984D00C25C4C /* LDSimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = C6034787291E984D00C25C4C /* LDSimplePing.m */; };
+		C6034795291E984D00C25C4C /* LDNetPing.m in Sources */ = {isa = PBXBuildFile; fileRef = C603478A291E984D00C25C4C /* LDNetPing.m */; };
+		C6034796291E984D00C25C4C /* LDNetGetAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = C603478C291E984D00C25C4C /* LDNetGetAddress.m */; };
+		C6034797291E984D00C25C4C /* LDNetDiagnoService.m in Sources */ = {isa = PBXBuildFile; fileRef = C603478D291E984D00C25C4C /* LDNetDiagnoService.m */; };
+		C6034798291E984D00C25C4C /* LDNetConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = C6034791291E984D00C25C4C /* LDNetConnect.m */; };
+		C603479B291E986600C25C4C /* CheckNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C603479A291E986600C25C4C /* CheckNetworkViewController.m */; };
+		C60347AE291E98CA00C25C4C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C60347A2291E98CA00C25C4C /* AFURLResponseSerialization.m */; };
+		C60347AF291E98CA00C25C4C /* NSData+Godzippa.m in Sources */ = {isa = PBXBuildFile; fileRef = C60347A3291E98CA00C25C4C /* NSData+Godzippa.m */; };
+		C60347B0291E98CA00C25C4C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C60347A4291E98CA00C25C4C /* AFHTTPSessionManager.m */; };
+		C60347B1291E98CA00C25C4C /* AFGzipRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = C60347A5291E98CA00C25C4C /* AFGzipRequestSerializer.m */; };
+		C60347B2291E98CA00C25C4C /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C60347A7291E98CA00C25C4C /* AFURLSessionManager.m */; };
+		C60347B3291E98CA00C25C4C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C60347A8291E98CA00C25C4C /* AFURLRequestSerialization.m */; };
+		C60347B4291E98CA00C25C4C /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C60347AA291E98CA00C25C4C /* AFNetworkReachabilityManager.m */; };
+		C60347B5291E98CA00C25C4C /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = C60347AB291E98CA00C25C4C /* AFSecurityPolicy.m */; };
+		C60347B8291E98F400C25C4C /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C60347B7291E98ED00C25C4C /* libresolv.tbd */; };
+		C60347BD291E9D7700C25C4C /* CheckTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C60347BC291E9D7700C25C4C /* CheckTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -424,6 +446,51 @@
 		7FAA1519291E76BD00775CB3 /* CompassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompassViewController.m; sourceTree = "<group>"; };
 		7FAA151B291E76E500775CB3 /* LogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogViewController.h; sourceTree = "<group>"; };
 		7FAA151C291E76E500775CB3 /* LogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogViewController.m; sourceTree = "<group>"; };
+		C6034775291E7BC800C25C4C /* CompassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompassView.h; sourceTree = "<group>"; };
+		C6034776291E7BC800C25C4C /* CompassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompassView.m; sourceTree = "<group>"; };
+		C6034779291E896100C25C4C /* UIButton+extentedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+extentedButton.h"; sourceTree = "<group>"; };
+		C603477A291E896100C25C4C /* UIButton+extentedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+extentedButton.m"; sourceTree = "<group>"; };
+		C603477C291E8A6200C25C4C /* UIView+GradientColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+GradientColor.m"; path = "../../../../BDD/BDDProject/Category/UIView+GradientColor.m"; sourceTree = "<group>"; };
+		C603477D291E8A6200C25C4C /* UIView+GradientColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+GradientColor.h"; path = "../../../../BDD/BDDProject/Category/UIView+GradientColor.h"; sourceTree = "<group>"; };
+		C603477F291E903900C25C4C /* CacheUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheUnit.m; sourceTree = "<group>"; };
+		C6034780291E903900C25C4C /* CacheUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheUnit.h; sourceTree = "<group>"; };
+		C6034783291E984D00C25C4C /* LDNetDiagnoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDNetDiagnoService.h; sourceTree = "<group>"; };
+		C6034784291E984D00C25C4C /* LDNetGetAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDNetGetAddress.h; sourceTree = "<group>"; };
+		C6034785291E984D00C25C4C /* LDNetTraceRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDNetTraceRoute.m; sourceTree = "<group>"; };
+		C6034786291E984D00C25C4C /* LDNetTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDNetTimer.m; sourceTree = "<group>"; };
+		C6034787291E984D00C25C4C /* LDSimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDSimplePing.m; sourceTree = "<group>"; };
+		C6034788291E984D00C25C4C /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
+		C6034789291E984D00C25C4C /* LDNetConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDNetConnect.h; sourceTree = "<group>"; };
+		C603478A291E984D00C25C4C /* LDNetPing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDNetPing.m; sourceTree = "<group>"; };
+		C603478B291E984D00C25C4C /* LDNetTraceRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDNetTraceRoute.h; sourceTree = "<group>"; };
+		C603478C291E984D00C25C4C /* LDNetGetAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDNetGetAddress.m; sourceTree = "<group>"; };
+		C603478D291E984D00C25C4C /* LDNetDiagnoService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDNetDiagnoService.m; sourceTree = "<group>"; };
+		C603478E291E984D00C25C4C /* LDNetTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDNetTimer.h; sourceTree = "<group>"; };
+		C603478F291E984D00C25C4C /* LDSimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDSimplePing.h; sourceTree = "<group>"; };
+		C6034790291E984D00C25C4C /* LDNetPing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDNetPing.h; sourceTree = "<group>"; };
+		C6034791291E984D00C25C4C /* LDNetConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDNetConnect.m; sourceTree = "<group>"; };
+		C6034799291E986600C25C4C /* CheckNetworkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckNetworkViewController.h; sourceTree = "<group>"; };
+		C603479A291E986600C25C4C /* CheckNetworkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckNetworkViewController.m; sourceTree = "<group>"; };
+		C603479D291E98CA00C25C4C /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		C603479E291E98CA00C25C4C /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		C603479F291E98CA00C25C4C /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		C60347A0291E98CA00C25C4C /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		C60347A1291E98CA00C25C4C /* AFGzipRequestSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFGzipRequestSerializer.h; sourceTree = "<group>"; };
+		C60347A2291E98CA00C25C4C /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		C60347A3291E98CA00C25C4C /* NSData+Godzippa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Godzippa.m"; sourceTree = "<group>"; };
+		C60347A4291E98CA00C25C4C /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		C60347A5291E98CA00C25C4C /* AFGzipRequestSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFGzipRequestSerializer.m; sourceTree = "<group>"; };
+		C60347A6291E98CA00C25C4C /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		C60347A7291E98CA00C25C4C /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		C60347A8291E98CA00C25C4C /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		C60347A9291E98CA00C25C4C /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		C60347AA291E98CA00C25C4C /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		C60347AB291E98CA00C25C4C /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		C60347AC291E98CA00C25C4C /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		C60347AD291E98CA00C25C4C /* NSData+Godzippa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Godzippa.h"; sourceTree = "<group>"; };
+		C60347B7291E98ED00C25C4C /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		C60347BB291E9D7700C25C4C /* CheckTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckTableViewCell.h; sourceTree = "<group>"; };
+		C60347BC291E9D7700C25C4C /* CheckTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -433,6 +500,7 @@
 			files = (
 				7FAA1484291E735800775CB3 /* WebP.framework in Frameworks */,
 				7FAA1485291E735800775CB3 /* bpg.framework in Frameworks */,
+				C60347B8291E98F400C25C4C /* libresolv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +512,7 @@
 			children = (
 				7FAA11C3291E733F00775CB3 /* MinGW */,
 				7FAA11C2291E733F00775CB3 /* Products */,
+				C60347B6291E98EC00C25C4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -478,6 +547,8 @@
 		7FAA12AF291E735800775CB3 /* Libary */ = {
 			isa = PBXGroup;
 			children = (
+				C603479C291E98CA00C25C4C /* AFNetworking */,
+				C6034782291E984D00C25C4C /* LDNetDiagnoService */,
 				7FAA12B0291E735800775CB3 /* YYKit */,
 				7FAA135E291E735800775CB3 /* Masonry */,
 				7FAA1378291E735800775CB3 /* HHTransition */,
@@ -853,10 +924,14 @@
 		7FAA13DE291E735800775CB3 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				C603477D291E8A6200C25C4C /* UIView+GradientColor.h */,
+				C603477C291E8A6200C25C4C /* UIView+GradientColor.m */,
+				C6034779291E896100C25C4C /* UIButton+extentedButton.h */,
+				C603477A291E896100C25C4C /* UIButton+extentedButton.m */,
 				7FAA13DF291E735800775CB3 /* NSString+LPExtension.h */,
-				7FAA13E0291E735800775CB3 /* UIView+GradientColor.m */,
 				7FAA13E1291E735800775CB3 /* NSString+LPExtension.m */,
 				7FAA13E2291E735800775CB3 /* UIView+GradientColor.h */,
+				7FAA13E0291E735800775CB3 /* UIView+GradientColor.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -864,6 +939,8 @@
 		7FAA14D1291E739B00775CB3 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				C6034778291E7EB500C25C4C /* Speed */,
+				C6034773291E7BA700C25C4C /* Compass */,
 				7FAA14D5291E739B00775CB3 /* Provider */,
 				7FAA14EA291E739B00775CB3 /* ZFTab */,
 				7FAA14FD291E739B00775CB3 /* Base */,
@@ -874,9 +951,11 @@
 		7FAA14D5291E739B00775CB3 /* Provider */ = {
 			isa = PBXGroup;
 			children = (
+				C6034780291E903900C25C4C /* CacheUnit.h */,
+				C603477F291E903900C25C4C /* CacheUnit.m */,
+				7FAA14D8291E739B00775CB3 /* GetIPAddress.h */,
 				7FAA14D6291E739B00775CB3 /* GetIPAddress.m */,
 				7FAA14D7291E739B00775CB3 /* NetworkMeaskltTols.h */,
-				7FAA14D8291E739B00775CB3 /* GetIPAddress.h */,
 				7FAA14D9291E739B00775CB3 /* NetworkMeaskltTols.m */,
 			);
 			path = Provider;
@@ -929,14 +1008,104 @@
 		7FAA1514291E761500775CB3 /* Page */ = {
 			isa = PBXGroup;
 			children = (
-				7FAA1515291E764900775CB3 /* SpeedViewController.h */,
-				7FAA1516291E764900775CB3 /* SpeedViewController.m */,
-				7FAA1518291E76BD00775CB3 /* CompassViewController.h */,
-				7FAA1519291E76BD00775CB3 /* CompassViewController.m */,
 				7FAA151B291E76E500775CB3 /* LogViewController.h */,
 				7FAA151C291E76E500775CB3 /* LogViewController.m */,
 			);
 			path = Page;
+			sourceTree = "<group>";
+		};
+		C6034773291E7BA700C25C4C /* Compass */ = {
+			isa = PBXGroup;
+			children = (
+				C6034774291E7BC100C25C4C /* Views */,
+				7FAA1518291E76BD00775CB3 /* CompassViewController.h */,
+				7FAA1519291E76BD00775CB3 /* CompassViewController.m */,
+			);
+			path = Compass;
+			sourceTree = "<group>";
+		};
+		C6034774291E7BC100C25C4C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C6034775291E7BC800C25C4C /* CompassView.h */,
+				C6034776291E7BC800C25C4C /* CompassView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C6034778291E7EB500C25C4C /* Speed */ = {
+			isa = PBXGroup;
+			children = (
+				C60347BA291E9D6700C25C4C /* View */,
+				7FAA1515291E764900775CB3 /* SpeedViewController.h */,
+				7FAA1516291E764900775CB3 /* SpeedViewController.m */,
+				C6034799291E986600C25C4C /* CheckNetworkViewController.h */,
+				C603479A291E986600C25C4C /* CheckNetworkViewController.m */,
+			);
+			path = Speed;
+			sourceTree = "<group>";
+		};
+		C6034782291E984D00C25C4C /* LDNetDiagnoService */ = {
+			isa = PBXGroup;
+			children = (
+				C6034789291E984D00C25C4C /* LDNetConnect.h */,
+				C6034791291E984D00C25C4C /* LDNetConnect.m */,
+				C6034783291E984D00C25C4C /* LDNetDiagnoService.h */,
+				C603478D291E984D00C25C4C /* LDNetDiagnoService.m */,
+				C6034784291E984D00C25C4C /* LDNetGetAddress.h */,
+				C603478C291E984D00C25C4C /* LDNetGetAddress.m */,
+				C6034790291E984D00C25C4C /* LDNetPing.h */,
+				C603478A291E984D00C25C4C /* LDNetPing.m */,
+				C603478E291E984D00C25C4C /* LDNetTimer.h */,
+				C6034786291E984D00C25C4C /* LDNetTimer.m */,
+				C603478B291E984D00C25C4C /* LDNetTraceRoute.h */,
+				C6034785291E984D00C25C4C /* LDNetTraceRoute.m */,
+				C603478F291E984D00C25C4C /* LDSimplePing.h */,
+				C6034787291E984D00C25C4C /* LDSimplePing.m */,
+				C6034788291E984D00C25C4C /* Route.h */,
+			);
+			path = LDNetDiagnoService;
+			sourceTree = "<group>";
+		};
+		C603479C291E98CA00C25C4C /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				C603479D291E98CA00C25C4C /* AFSecurityPolicy.h */,
+				C603479E291E98CA00C25C4C /* AFNetworkReachabilityManager.h */,
+				C603479F291E98CA00C25C4C /* AFURLSessionManager.h */,
+				C60347A0291E98CA00C25C4C /* AFURLRequestSerialization.h */,
+				C60347A1291E98CA00C25C4C /* AFGzipRequestSerializer.h */,
+				C60347A2291E98CA00C25C4C /* AFURLResponseSerialization.m */,
+				C60347A3291E98CA00C25C4C /* NSData+Godzippa.m */,
+				C60347A4291E98CA00C25C4C /* AFHTTPSessionManager.m */,
+				C60347A5291E98CA00C25C4C /* AFGzipRequestSerializer.m */,
+				C60347A6291E98CA00C25C4C /* AFURLResponseSerialization.h */,
+				C60347A7291E98CA00C25C4C /* AFURLSessionManager.m */,
+				C60347A8291E98CA00C25C4C /* AFURLRequestSerialization.m */,
+				C60347A9291E98CA00C25C4C /* AFNetworking.h */,
+				C60347AA291E98CA00C25C4C /* AFNetworkReachabilityManager.m */,
+				C60347AB291E98CA00C25C4C /* AFSecurityPolicy.m */,
+				C60347AC291E98CA00C25C4C /* AFHTTPSessionManager.h */,
+				C60347AD291E98CA00C25C4C /* NSData+Godzippa.h */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		C60347B6291E98EC00C25C4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C60347B7291E98ED00C25C4C /* libresolv.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C60347BA291E9D6700C25C4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C60347BB291E9D7700C25C4C /* CheckTableViewCell.h */,
+				C60347BC291E9D7700C25C4C /* CheckTableViewCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1014,17 +1183,21 @@
 				7FAA149C291E735800775CB3 /* MASViewAttribute.m in Sources */,
 				7FAA14B5291E735800775CB3 /* DLTranslationEntity.m in Sources */,
 				7FAA14CD291E735800775CB3 /* UIView+GradientColor.m in Sources */,
+				C60347B4291E98CA00C25C4C /* AFNetworkReachabilityManager.m in Sources */,
 				7FAA146C291E735800775CB3 /* UITableView+YYAdd.m in Sources */,
 				7FAA150E291E739B00775CB3 /* UITabBar+BDDHit.m in Sources */,
 				7FAA144E291E735800775CB3 /* UIImageView+YYWebImage.m in Sources */,
 				7FAA1443291E735800775CB3 /* YYCache.m in Sources */,
+				C6034796291E984D00C25C4C /* LDNetGetAddress.m in Sources */,
 				7FAA1462291E735800775CB3 /* NSAttributedString+YYText.m in Sources */,
 				7FAA149A291E735800775CB3 /* MASConstraint.m in Sources */,
+				C60347B3291E98CA00C25C4C /* AFURLRequestSerialization.m in Sources */,
 				7FAA1495291E735800775CB3 /* MASCompositeConstraint.m in Sources */,
 				7FAA146F291E735800775CB3 /* UIView+YYAdd.m in Sources */,
 				7FAA1483291E735800775CB3 /* CALayer+YYAdd.m in Sources */,
 				7FAA1471291E735800775CB3 /* UIGestureRecognizer+YYAdd.m in Sources */,
 				7FAA1479291E735800775CB3 /* NSData+YYAdd.m in Sources */,
+				C6034793291E984D00C25C4C /* LDNetTimer.m in Sources */,
 				7FAA1445291E735800775CB3 /* YYMemoryCache.m in Sources */,
 				7FAA14B0291E735800775CB3 /* AnimationTransitionBegin.m in Sources */,
 				7FAA1469291E735800775CB3 /* UIColor+YYAdd.m in Sources */,
@@ -1041,20 +1214,25 @@
 				7FAA1454291E735800775CB3 /* YYTextMagnifier.m in Sources */,
 				7FAA14A0291E735800775CB3 /* AnimationTopBackEnd.m in Sources */,
 				7FAA14CE291E735800775CB3 /* NSString+LPExtension.m in Sources */,
+				C603477E291E8A6200C25C4C /* UIView+GradientColor.m in Sources */,
 				7FAA14A8291E735800775CB3 /* AnimationFadeBegin.m in Sources */,
 				7FAA1478291E735800775CB3 /* NSObject+YYAdd.m in Sources */,
 				7FAA144F291E735800775CB3 /* MKAnnotationView+YYWebImage.m in Sources */,
+				C603477B291E896100C25C4C /* UIButton+extentedButton.m in Sources */,
 				7FAA14A1291E735800775CB3 /* AnimationBackEnd.m in Sources */,
 				7FAA1463291E735800775CB3 /* UIPasteboard+YYText.m in Sources */,
 				7FAA151A291E76BD00775CB3 /* CompassViewController.m in Sources */,
+				C6034777291E7BC800C25C4C /* CompassView.m in Sources */,
 				7FAA1468291E735800775CB3 /* UIBezierPath+YYAdd.m in Sources */,
 				7FAA14A3291E735800775CB3 /* VCTransitionDelegate.m in Sources */,
 				7FAA1504291E739B00775CB3 /* NetworkMeaskltTols.m in Sources */,
 				7FAA1446291E735800775CB3 /* YYImageCache.m in Sources */,
 				7FAA1447291E735800775CB3 /* YYWebImageManager.m in Sources */,
 				7FAA1464291E735800775CB3 /* YYTextAttribute.m in Sources */,
+				C60347AF291E98CA00C25C4C /* NSData+Godzippa.m in Sources */,
 				7FAA148F291E735800775CB3 /* YYFileHash.m in Sources */,
 				7FAA146E291E735800775CB3 /* UIScreen+YYAdd.m in Sources */,
+				C60347BD291E9D7700C25C4C /* CheckTableViewCell.m in Sources */,
 				7FAA1482291E735800775CB3 /* YYCGUtilities.m in Sources */,
 				7FAA150D291E739B00775CB3 /* ZFTabBarButton.m in Sources */,
 				7FAA147A291E735800775CB3 /* NSKeyedUnarchiver+YYAdd.m in Sources */,
@@ -1073,7 +1251,9 @@
 				7FAA1460291E735800775CB3 /* NSParagraphStyle+YYText.m in Sources */,
 				7FAA150B291E739B00775CB3 /* ZFTabBarViewController.m in Sources */,
 				7FAA1490291E735800775CB3 /* YYTimer.m in Sources */,
+				C6034792291E984D00C25C4C /* LDNetTraceRoute.m in Sources */,
 				7FAA150C291E739B00775CB3 /* ZFTabBar.m in Sources */,
+				C60347AE291E98CA00C25C4C /* AFURLResponseSerialization.m in Sources */,
 				7FAA1499291E735800775CB3 /* View+MASAdditions.m in Sources */,
 				7FAA14B4291E735800775CB3 /* UINavigationController+DLTranslation.m in Sources */,
 				7FAA1493291E735800775CB3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
@@ -1089,6 +1269,7 @@
 				7FAA147E291E735800775CB3 /* NSString+YYAdd.m in Sources */,
 				7FAA1481291E735800775CB3 /* NSObject+YYAddForKVO.m in Sources */,
 				7FAA1497291E735800775CB3 /* MASLayoutConstraint.m in Sources */,
+				C60347B2291E98CA00C25C4C /* AFURLSessionManager.m in Sources */,
 				7FAA1480291E735800775CB3 /* NSDictionary+YYAdd.m in Sources */,
 				7FAA1453291E735800775CB3 /* YYTextView.m in Sources */,
 				7FAA1452291E735800775CB3 /* YYWebImageOperation.m in Sources */,
@@ -1098,12 +1279,16 @@
 				7FAA1465291E735800775CB3 /* YYTextArchiver.m in Sources */,
 				7FAA1473291E735800775CB3 /* UIControl+YYAdd.m in Sources */,
 				7FAA144C291E735800775CB3 /* _YYWebImageSetter.m in Sources */,
+				C60347B1291E98CA00C25C4C /* AFGzipRequestSerializer.m in Sources */,
 				7FAA1444291E735800775CB3 /* YYKVStorage.m in Sources */,
 				7FAA145B291E735800775CB3 /* YYTextKeyboardManager.m in Sources */,
 				7FAA151D291E76E500775CB3 /* LogViewController.m in Sources */,
 				7FAA147D291E735800775CB3 /* NSDate+YYAdd.m in Sources */,
+				C6034798291E984D00C25C4C /* LDNetConnect.m in Sources */,
 				7FAA1477291E735800775CB3 /* NSBundle+YYAdd.m in Sources */,
+				C60347B5291E98CA00C25C4C /* AFSecurityPolicy.m in Sources */,
 				7FAA14A4291E735800775CB3 /* AnimationTiltBegin.m in Sources */,
+				C6034795291E984D00C25C4C /* LDNetPing.m in Sources */,
 				7FAA1496291E735800775CB3 /* MASConstraintMaker.m in Sources */,
 				7FAA1455291E735800775CB3 /* YYTextContainerView.m in Sources */,
 				7FAA1449291E735800775CB3 /* YYImage.m in Sources */,
@@ -1121,12 +1306,16 @@
 				7FAA1467291E735800775CB3 /* UITextField+YYAdd.m in Sources */,
 				7FAA1475291E735800775CB3 /* NSArray+YYAdd.m in Sources */,
 				7FAA1458291E735800775CB3 /* YYTextLayout.m in Sources */,
+				C6034794291E984D00C25C4C /* LDSimplePing.m in Sources */,
+				C60347B0291E98CA00C25C4C /* AFHTTPSessionManager.m in Sources */,
 				7FAA148D291E735800775CB3 /* YYKeychain.m in Sources */,
 				7FAA11D7291E734000775CB3 /* main.m in Sources */,
 				7FAA1461291E735800775CB3 /* YYTextParser.m in Sources */,
 				7FAA1456291E735800775CB3 /* YYTextEffectWindow.m in Sources */,
 				7FAA1488291E735800775CB3 /* YYAsyncLayer.m in Sources */,
 				7FAA144B291E735800775CB3 /* YYFrameImage.m in Sources */,
+				C603479B291E986600C25C4C /* CheckNetworkViewController.m in Sources */,
+				C6034781291E903900C25C4C /* CacheUnit.m in Sources */,
 				7FAA14B6291E735800775CB3 /* DLTranslation.m in Sources */,
 				7FAA1517291E764900775CB3 /* SpeedViewController.m in Sources */,
 				7FAA1476291E735800775CB3 /* NSNumber+YYAdd.m in Sources */,
@@ -1134,6 +1323,7 @@
 				7FAA145A291E735800775CB3 /* YYTextSelectionView.m in Sources */,
 				7FAA146A291E735800775CB3 /* UIDevice+YYAdd.m in Sources */,
 				7FAA1472291E735800775CB3 /* UIImage+YYAdd.m in Sources */,
+				C6034797291E984D00C25C4C /* LDNetDiagnoService.m in Sources */,
 				7FAA149D291E735800775CB3 /* AnimationWaveEnd.m in Sources */,
 				7FAA147F291E735800775CB3 /* NSNotificationCenter+YYAdd.m in Sources */,
 				7FAA145C291E735800775CB3 /* YYTextDebugOption.m in Sources */,

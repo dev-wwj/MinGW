@@ -6,6 +6,7 @@
 //
 
 #import "CompassViewController.h"
+#import "CompassView.h"
 
 @interface CompassViewController ()
 
@@ -16,6 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    CompassView *com = [CompassView new];
+    com.backgroundColor = UIColorHex(0x414141);
+    com.layer.cornerRadius = 16;
+    com.layer.masksToBounds = YES;
+    [self.view addSubview:com];
+    [com mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.size.mas_equalTo(CGSizeMake(320, 330));
+        make.centerX.equalTo(self.view);
+        make.centerY.equalTo(self.view).offset(-100);
+    }];
 }
 
 /*
