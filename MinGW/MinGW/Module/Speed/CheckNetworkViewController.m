@@ -18,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.navBgColor = UIColor.clearColor;
+    self.titleStr = @"Network Diagnostics";
+    self.titleColor = UIColor.whiteColor;
+    
     self.dataSource = [NSMutableArray array];
     [self.dataSource addObject:@{@"title":@"Network Settings",@"subtitle":@"Little sun"}];
     [self.dataSource addObject:@{@"title":@"signal intensity",@"subtitle":@"normal"}];

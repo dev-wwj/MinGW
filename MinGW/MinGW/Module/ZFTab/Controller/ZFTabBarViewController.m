@@ -121,13 +121,13 @@
     SpeedViewController *firstPageVC = [[SpeedViewController alloc] init];
     
     CustomNaviViewController *nav = [[CustomNaviViewController alloc] initWithRootViewController:firstPageVC];
-    nav.custom_tabBarItemTitle = @"speed";
+    nav.custom_tabBarItemTitle = @"velocity measurement";
     
-    [nav.customTabBarItem setImage:[UIImage imageNamed:@"icon／加油站 (1)"] forState:UIControlStateNormal];
-    [nav.customTabBarItem setImage:[UIImage imageNamed:@"icon／加油站"] forState:UIControlStateSelected];
+    [nav.customTabBarItem setImage:[UIImage imageNamed:@"闪付_flash-payment (1)"] forState:UIControlStateNormal];
+    [nav.customTabBarItem setImage:[UIImage imageNamed:@"闪付_flash-payment"] forState:UIControlStateSelected];
     
     [nav.customTabBarItem setTitle:nav.custom_tabBarItemTitle forState:UIControlStateNormal];
-
+      
     
     // 禁用系统的tabbarButton
     nav.tabBarItem.enabled = NO;
@@ -139,10 +139,10 @@
     
     CompassViewController *compassVC = [[CompassViewController alloc] init];
     CustomNaviViewController *nav = [[CustomNaviViewController alloc] initWithRootViewController:compassVC];
-    nav.custom_tabBarItemTitle = @"ping";
+    nav.custom_tabBarItemTitle = @"compass";
     
-    [nav.customTabBarItem setImage:[UIImage imageNamed:@"3.1 持平 (1)"] forState:UIControlStateNormal];
-    [nav.customTabBarItem setImage:[UIImage imageNamed:@"3.1 持平"] forState:UIControlStateSelected];
+    [nav.customTabBarItem setImage:[UIImage imageNamed:@"指南针_compass-one"] forState:UIControlStateNormal];
+    [nav.customTabBarItem setImage:[UIImage imageNamed:@"指南针_compass-one (1)"] forState:UIControlStateSelected];
     [nav.customTabBarItem setTitle:nav.custom_tabBarItemTitle forState:UIControlStateNormal];
     
     // 禁用系统的tabbarButton
@@ -157,8 +157,8 @@
     CustomNaviViewController *nav = [[CustomNaviViewController alloc] initWithRootViewController:logVC];
     nav.custom_tabBarItemTitle = @"history";
     
-    [nav.customTabBarItem setImage:[UIImage imageNamed:@"历史记录 (1)"] forState:UIControlStateNormal];
-    [nav.customTabBarItem setImage:[UIImage imageNamed:@"历史记录"] forState:UIControlStateSelected];
+    [nav.customTabBarItem setImage:[UIImage imageNamed:@"历史记录_history (1)"] forState:UIControlStateNormal];
+    [nav.customTabBarItem setImage:[UIImage imageNamed:@"历史记录_history"] forState:UIControlStateSelected];
     [nav.customTabBarItem setTitle:nav.custom_tabBarItemTitle forState:UIControlStateNormal];
     
     

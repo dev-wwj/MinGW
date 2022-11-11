@@ -30,7 +30,7 @@
         [self addShadow];
 
         self.clipsToBounds = NO;
-        self.backgroundColor = ColorWithHex(0xffffff);
+        self.backgroundColor = ColorWithHex(0x676767);
         _tabBarButtonArr = [NSPointerArray weakObjectsPointerArray];
     }
     return self;

@@ -8,7 +8,9 @@
 #import "FlagViewController.h"
 #import "FlagTableViewCell.h"
 
-@interface FlagViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface FlagViewController ()<UITableViewDelegate,UITableViewDataSource> {
+    int index;
+}
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSArray *dataSource;
 @end
@@ -18,12 +20,33 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    index = 2;
     self.dataSource = @[@"american-flag-2043285__340",@"argentina-162229__340",@"china",@"germany-flag-1783774__340",@"italy-162326__340",@"nigeria-162376__340",@"swiss-flag-3109178__340",@"ukraine-162450__340",@"union-jack-1027898__340"];
     self.titleStr = @"switch";
     self.titleColor = UIColor.whiteColor;
-    self.view.backgroundColor = UIColor.blackColor;
+    self.navBgColor = UIColor.clearColor;
     
     [self tableView];
+    
+    UIButton *sure = [UIButton buttonWithType:UIButtonTypeCustom];
+    [sure setTitle:@"determine" forState:UIControlStateNormal];
+    [sure setTitleColor:UIColor.whiteColor forState:UIControlStateNormal];
+    [sure addTarget:self action:@selector(sureAction) forControlEvents:UIControlEventTouchUpInside];
+    sure.layer.cornerRadius = 12;
+    sure.layer.masksToBounds = YES;
+    [self.view addSubview:sure];
+    [sure mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.size.mas_equalTo(CGSizeMake(170, 54));
+        make.bottom.mas_equalTo(-40);
+        make.centerX.equalTo(self.view);
+    }];
+    
+    [sure addHorizontalGradientLayerByColors:@[(__bridge id)ColorWithHex(0x28bcc6).CGColor,(__bridge id)ColorWithHex(0x41c7b4).CGColor] frame:CGRectMake(0, 0, 170, 54)];
+}
+
+- (void)sureAction {
+    _block(self.dataSource[index]);
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -38,6 +61,15 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return  75;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [[tableView cellForRowAtIndexPath:indexPath] setSelected:YES];
+    index = indexPath.row;
+}
+
+- (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath  {
+    [[tableView cellForRowAtIndexPath:indexPath] setSelected:NO];
 }
 
 #pragma mark -tableView
@@ -63,9 +95,10 @@
         tableView.layer.cornerRadius = 20;
         tableView.layer.masksToBounds = YES;
         [tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.top.mas_equalTo(20);
+            make.left.mas_equalTo(20);
+            make.top.mas_equalTo(NAV_BAR_HEIGHT + 20);
             make.right.mas_equalTo(-20);
-            make.bottom.mas_equalTo(-TAB_BAR_HEIGHT - 40);
+            make.bottom.mas_equalTo(-110);
         }];
     }
     return _tableView;

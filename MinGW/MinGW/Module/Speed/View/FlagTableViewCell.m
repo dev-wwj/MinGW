@@ -33,10 +33,10 @@
 - (void)setUI {
 
     UIImageView *img = [[UIImageView alloc] init];
-    img.hidden = YES;
     [self.contentView addSubview:img];
     [img mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.mas_equalTo(40);
+        make.size.mas_equalTo(CGSizeMake(56, 36));
         make.centerY.equalTo(self.contentView);
     }];
     _iamge = img;

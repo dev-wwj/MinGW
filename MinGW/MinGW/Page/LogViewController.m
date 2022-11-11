@@ -21,6 +21,7 @@
     // Do any additional setup after loading the view.
     self.titleStr = @"history";
     [self tableView];
+    self.leftButtonHidden = YES;
 }
 
 - (UITableView *)tableView {

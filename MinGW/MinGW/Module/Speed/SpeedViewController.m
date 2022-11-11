@@ -19,6 +19,7 @@
     UIButton *_loss;
     UILabel *_downLa;
     UILabel *_upLa;
+    UIButton *_country;
 }
 @property (nonatomic, strong) NetworkMeaskltTols* tools;
 @end
@@ -31,6 +32,7 @@
     self.titleStr = @"MinGW speed measurement";
     self.titleColor = UIColor.whiteColor;
     self.navBgColor = UIColor.clearColor;
+    self.leftButtonHidden = YES;
     
     [self.rightButton setImage:[UIImage imageNamed:@"均衡器_equalizer (1)"] forState:UIControlStateNormal];
     
@@ -51,7 +53,6 @@
         
     }];
     
-    self.view.backgroundColor = UIColor.blackColor;
 }
 
 - (void)setSpeedInfo:(float)speed {
@@ -93,6 +94,7 @@
         make.top.equalTo(speedImg.mas_bottom).offset(20);
         make.centerX.equalTo(self.view);
     }];
+    _country = country;
     
     UIView *bgView = [UIView new];
     bgView.backgroundColor = ColorWithHex(0x414141);
@@ -220,6 +222,9 @@
 
 - (void)countryAcioon {
     FlagViewController *vc = [FlagViewController new];
+    vc.block = ^(NSString * _Nonnull img) {
+        [_country setImage:[UIImage imageNamed:img] forState:UIControlStateNormal];
+    };
     [self.navigationController pushViewController:vc animated:YES];
 }
 

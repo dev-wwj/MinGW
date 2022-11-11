@@ -1002,14 +1002,14 @@
 		7FAA14EE291E739B00775CB3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7FAA14EF291E739B00775CB3 /* ZFTabBarButton+Level.h */,
 				7FAA14F0291E739B00775CB3 /* UITabBar+BDDHit.h */,
-				7FAA14F1291E739B00775CB3 /* ZFTabBar.m */,
-				7FAA14F2291E739B00775CB3 /* ZFTabBarButton.m */,
 				7FAA14F3291E739B00775CB3 /* UITabBar+BDDHit.m */,
 				7FAA14F4291E739B00775CB3 /* ZFTabBar.h */,
-				7FAA14F5291E739B00775CB3 /* ZFTabBarButton+Level.m */,
+				7FAA14F1291E739B00775CB3 /* ZFTabBar.m */,
 				7FAA14F6291E739B00775CB3 /* ZFTabBarButton.h */,
+				7FAA14F2291E739B00775CB3 /* ZFTabBarButton.m */,
+				7FAA14EF291E739B00775CB3 /* ZFTabBarButton+Level.h */,
+				7FAA14F5291E739B00775CB3 /* ZFTabBarButton+Level.m */,
 			);
 			path = View;
 			sourceTree = "<group>";

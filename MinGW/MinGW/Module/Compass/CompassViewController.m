@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.navBgColor = UIColor.clearColor;
+    self.titleStr = @"guide";
+    self.leftButtonHidden = YES;
+    self.titleColor = UIColor.whiteColor;
     
     CompassView *com = [CompassView new];
     com.backgroundColor = UIColorHex(0x414141);

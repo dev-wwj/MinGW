@@ -24,7 +24,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.automaticallyAdjustsScrollViewInsets = NO;
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = ColorWithHex(0x2c2c2c);
     
     UIImageView *bgImg = [[UIImageView alloc] init];
     bgImg.contentMode = UIViewContentModeLeft;
@@ -35,9 +35,6 @@
     _bgImg = bgImg;
     
     [self initNavigationBar];
-    
-    
-    [self setBackgrounImage:@"earth-1365995__340"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -56,7 +53,7 @@
     [self.view addSubview:_customNavgationBar];
     
     _leftButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [_leftButton setImage:self.backImage ? : [UIImage imageNamed:@"返回浅"] forState:UIControlStateNormal];
+    [_leftButton setImage:self.backImage ? : [UIImage imageNamed:@"上一步_back"] forState:UIControlStateNormal];
     [_leftButton addTarget:self action:@selector(defaultLeftBtnClick) forControlEvents:UIControlEventTouchUpInside];
     [_customNavgationBar addSubview:_leftButton];
     

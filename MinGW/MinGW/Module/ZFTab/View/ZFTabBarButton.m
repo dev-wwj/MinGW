@@ -50,7 +50,7 @@
     
     // 文字颜色
     [self setTitleColor:ColorWithHex(0x9397A1) forState:UIControlStateNormal];
-    [self setTitleColor:COLOR_MAIN forState:UIControlStateSelected];
+    [self setTitleColor:UIColor.whiteColor forState:UIControlStateSelected];
 }
 
 #pragma mark - Override
