@@ -27,7 +27,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     UIImageView *bgImg = [[UIImageView alloc] init];
-    bgImg.contentMode = UIViewContentModeScaleAspectFill;
+    bgImg.contentMode = UIViewContentModeLeft;
     [self.view addSubview:bgImg];
     [bgImg mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.mas_equalTo(UIEdgeInsetsZero);
@@ -37,6 +37,7 @@
     [self initNavigationBar];
     
     
+    [self setBackgrounImage:@"earth-1365995__340"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -133,7 +134,7 @@
 
 - (void)setNavBgColor:(UIColor *)navBgColor {
     _navBgColor = navBgColor;
-    _customNavgationBar.backgroundColor = navBgColor?:[UIColor whiteColor];
+    _customNavgationBar.backgroundColor = navBgColor?:[UIColor clearColor];
 }
 
 - (void)setLeftButtonHidden:(BOOL)leftButtonHidden {

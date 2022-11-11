@@ -143,9 +143,15 @@
 		7FAA1517291E764900775CB3 /* SpeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA1516291E764900775CB3 /* SpeedViewController.m */; };
 		7FAA151A291E76BD00775CB3 /* CompassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA1519291E76BD00775CB3 /* CompassViewController.m */; };
 		7FAA151D291E76E500775CB3 /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA151C291E76E500775CB3 /* LogViewController.m */; };
+		7FAA1520291E7EB000775CB3 /* CurveLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA151F291E7EB000775CB3 /* CurveLineView.m */; };
+		7FAA1527291E7EFA00775CB3 /* LogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA1525291E7EFA00775CB3 /* LogCell.m */; };
+		7FAA1528291E7EFA00775CB3 /* LogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FAA1526291E7EFA00775CB3 /* LogCell.xib */; };
+		7FAA152F291E99B800775CB3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA152D291E99B800775CB3 /* DetailViewController.m */; };
+		7FAA1530291E99B800775CB3 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FAA152E291E99B800775CB3 /* DetailViewController.xib */; };
+		7FAA1533291EA0E500775CB3 /* SetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA1532291EA0E500775CB3 /* SetViewController.m */; };
+		7FAA1536291EA1E700775CB3 /* SetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA1535291EA1E700775CB3 /* SetCell.m */; };
 		C6034777291E7BC800C25C4C /* CompassView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6034776291E7BC800C25C4C /* CompassView.m */; };
 		C603477B291E896100C25C4C /* UIButton+extentedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C603477A291E896100C25C4C /* UIButton+extentedButton.m */; };
-		C603477E291E8A6200C25C4C /* UIView+GradientColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C603477C291E8A6200C25C4C /* UIView+GradientColor.m */; };
 		C6034781291E903900C25C4C /* CacheUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = C603477F291E903900C25C4C /* CacheUnit.m */; };
 		C6034792291E984D00C25C4C /* LDNetTraceRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = C6034785291E984D00C25C4C /* LDNetTraceRoute.m */; };
 		C6034793291E984D00C25C4C /* LDNetTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = C6034786291E984D00C25C4C /* LDNetTimer.m */; };
@@ -448,12 +454,22 @@
 		7FAA1519291E76BD00775CB3 /* CompassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompassViewController.m; sourceTree = "<group>"; };
 		7FAA151B291E76E500775CB3 /* LogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogViewController.h; sourceTree = "<group>"; };
 		7FAA151C291E76E500775CB3 /* LogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogViewController.m; sourceTree = "<group>"; };
+		7FAA151E291E7EB000775CB3 /* CurveLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurveLineView.h; sourceTree = "<group>"; };
+		7FAA151F291E7EB000775CB3 /* CurveLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurveLineView.m; sourceTree = "<group>"; };
+		7FAA1524291E7EFA00775CB3 /* LogCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogCell.h; sourceTree = "<group>"; };
+		7FAA1525291E7EFA00775CB3 /* LogCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogCell.m; sourceTree = "<group>"; };
+		7FAA1526291E7EFA00775CB3 /* LogCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogCell.xib; sourceTree = "<group>"; };
+		7FAA152C291E99B800775CB3 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		7FAA152D291E99B800775CB3 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		7FAA152E291E99B800775CB3 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		7FAA1531291EA0E500775CB3 /* SetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetViewController.h; sourceTree = "<group>"; };
+		7FAA1532291EA0E500775CB3 /* SetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetViewController.m; sourceTree = "<group>"; };
+		7FAA1534291EA1E700775CB3 /* SetCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetCell.h; sourceTree = "<group>"; };
+		7FAA1535291EA1E700775CB3 /* SetCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetCell.m; sourceTree = "<group>"; };
 		C6034775291E7BC800C25C4C /* CompassView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompassView.h; sourceTree = "<group>"; };
 		C6034776291E7BC800C25C4C /* CompassView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompassView.m; sourceTree = "<group>"; };
 		C6034779291E896100C25C4C /* UIButton+extentedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+extentedButton.h"; sourceTree = "<group>"; };
 		C603477A291E896100C25C4C /* UIButton+extentedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+extentedButton.m"; sourceTree = "<group>"; };
-		C603477C291E8A6200C25C4C /* UIView+GradientColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+GradientColor.m"; path = "../../../../BDD/BDDProject/Category/UIView+GradientColor.m"; sourceTree = "<group>"; };
-		C603477D291E8A6200C25C4C /* UIView+GradientColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+GradientColor.h"; path = "../../../../BDD/BDDProject/Category/UIView+GradientColor.h"; sourceTree = "<group>"; };
 		C603477F291E903900C25C4C /* CacheUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheUnit.m; sourceTree = "<group>"; };
 		C6034780291E903900C25C4C /* CacheUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheUnit.h; sourceTree = "<group>"; };
 		C6034783291E984D00C25C4C /* LDNetDiagnoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDNetDiagnoService.h; sourceTree = "<group>"; };
@@ -930,8 +946,6 @@
 		7FAA13DE291E735800775CB3 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				C603477D291E8A6200C25C4C /* UIView+GradientColor.h */,
-				C603477C291E8A6200C25C4C /* UIView+GradientColor.m */,
 				C6034779291E896100C25C4C /* UIButton+extentedButton.h */,
 				C603477A291E896100C25C4C /* UIButton+extentedButton.m */,
 				7FAA13DF291E735800775CB3 /* NSString+LPExtension.h */,
@@ -1004,8 +1018,8 @@
 			isa = PBXGroup;
 			children = (
 				7FAA14FE291E739B00775CB3 /* CustomNaviViewController.h */,
-				7FAA14FF291E739B00775CB3 /* BaseViewController.m */,
 				7FAA1500291E739B00775CB3 /* CustomNaviViewController.m */,
+				7FAA14FF291E739B00775CB3 /* BaseViewController.m */,
 				7FAA1501291E739B00775CB3 /* BaseViewController.h */,
 			);
 			path = Base;
@@ -1016,6 +1030,18 @@
 			children = (
 				7FAA151B291E76E500775CB3 /* LogViewController.h */,
 				7FAA151C291E76E500775CB3 /* LogViewController.m */,
+				7FAA151E291E7EB000775CB3 /* CurveLineView.h */,
+				7FAA151F291E7EB000775CB3 /* CurveLineView.m */,
+				7FAA152C291E99B800775CB3 /* DetailViewController.h */,
+				7FAA152D291E99B800775CB3 /* DetailViewController.m */,
+				7FAA152E291E99B800775CB3 /* DetailViewController.xib */,
+				7FAA1531291EA0E500775CB3 /* SetViewController.h */,
+				7FAA1532291EA0E500775CB3 /* SetViewController.m */,
+				7FAA1534291EA1E700775CB3 /* SetCell.h */,
+				7FAA1535291EA1E700775CB3 /* SetCell.m */,
+				7FAA1524291E7EFA00775CB3 /* LogCell.h */,
+				7FAA1525291E7EFA00775CB3 /* LogCell.m */,
+				7FAA1526291E7EFA00775CB3 /* LogCell.xib */,
 			);
 			path = Page;
 			sourceTree = "<group>";
@@ -1176,6 +1202,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FAA11D4291E734000775CB3 /* LaunchScreen.storyboard in Resources */,
+				7FAA1530291E99B800775CB3 /* DetailViewController.xib in Resources */,
+				7FAA1528291E7EFA00775CB3 /* LogCell.xib in Resources */,
 				7FAA11D1291E734000775CB3 /* Assets.xcassets in Resources */,
 				7FAA11CF291E733F00775CB3 /* Main.storyboard in Resources */,
 				7FAA1486291E735800775CB3 /* WebP.sh in Resources */,
@@ -1199,6 +1227,7 @@
 				7FAA144E291E735800775CB3 /* UIImageView+YYWebImage.m in Sources */,
 				7FAA1443291E735800775CB3 /* YYCache.m in Sources */,
 				C6034796291E984D00C25C4C /* LDNetGetAddress.m in Sources */,
+				7FAA1536291EA1E700775CB3 /* SetCell.m in Sources */,
 				7FAA1462291E735800775CB3 /* NSAttributedString+YYText.m in Sources */,
 				7FAA149A291E735800775CB3 /* MASConstraint.m in Sources */,
 				C60347B3291E98CA00C25C4C /* AFURLRequestSerialization.m in Sources */,
@@ -1224,7 +1253,6 @@
 				7FAA1454291E735800775CB3 /* YYTextMagnifier.m in Sources */,
 				7FAA14A0291E735800775CB3 /* AnimationTopBackEnd.m in Sources */,
 				7FAA14CE291E735800775CB3 /* NSString+LPExtension.m in Sources */,
-				C603477E291E8A6200C25C4C /* UIView+GradientColor.m in Sources */,
 				7FAA14A8291E735800775CB3 /* AnimationFadeBegin.m in Sources */,
 				7FAA1478291E735800775CB3 /* NSObject+YYAdd.m in Sources */,
 				7FAA144F291E735800775CB3 /* MKAnnotationView+YYWebImage.m in Sources */,
@@ -1243,11 +1271,13 @@
 				7FAA148F291E735800775CB3 /* YYFileHash.m in Sources */,
 				7FAA146E291E735800775CB3 /* UIScreen+YYAdd.m in Sources */,
 				C60347BD291E9D7700C25C4C /* CheckTableViewCell.m in Sources */,
+				7FAA1533291EA0E500775CB3 /* SetViewController.m in Sources */,
 				7FAA1482291E735800775CB3 /* YYCGUtilities.m in Sources */,
 				7FAA150D291E739B00775CB3 /* ZFTabBarButton.m in Sources */,
 				7FAA147A291E735800775CB3 /* NSKeyedUnarchiver+YYAdd.m in Sources */,
 				7FAA149B291E735800775CB3 /* MASViewConstraint.m in Sources */,
 				7FAA1489291E735800775CB3 /* YYThreadSafeDictionary.m in Sources */,
+				7FAA1527291E7EFA00775CB3 /* LogCell.m in Sources */,
 				7FAA14A5291E735800775CB3 /* AnimationBackBegin.m in Sources */,
 				7FAA1487291E735800775CB3 /* YYWeakProxy.m in Sources */,
 				7FAA14A2291E735800775CB3 /* AnimationTransitionEnd.m in Sources */,
@@ -1310,12 +1340,14 @@
 				C60347C3291EA2DE00C25C4C /* FlagViewController.m in Sources */,
 				7FAA147C291E735800775CB3 /* NSObject+YYAddForARC.m in Sources */,
 				7FAA14AE291E735800775CB3 /* UIView+HHLayout.m in Sources */,
+				7FAA152F291E99B800775CB3 /* DetailViewController.m in Sources */,
 				7FAA11C6291E733F00775CB3 /* AppDelegate.m in Sources */,
 				7FAA14AA291E735800775CB3 /* UIViewController+HHTransition.m in Sources */,
 				7FAA1474291E735800775CB3 /* UIFont+YYAdd.m in Sources */,
 				7FAA145D291E735800775CB3 /* YYLabel.m in Sources */,
 				7FAA14B3291E735800775CB3 /* DLPercentDrivenInteractiveTransition.m in Sources */,
 				7FAA1467291E735800775CB3 /* UITextField+YYAdd.m in Sources */,
+				7FAA1520291E7EB000775CB3 /* CurveLineView.m in Sources */,
 				7FAA1475291E735800775CB3 /* NSArray+YYAdd.m in Sources */,
 				7FAA1458291E735800775CB3 /* YYTextLayout.m in Sources */,
 				C6034794291E984D00C25C4C /* LDSimplePing.m in Sources */,
@@ -1497,6 +1529,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1530,6 +1564,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
