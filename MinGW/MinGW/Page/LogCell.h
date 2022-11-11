@@ -11,6 +11,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LogCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UIView *container;
+@property (weak, nonatomic) IBOutlet UILabel *dateLabel;
+@property (weak, nonatomic) IBOutlet UILabel *delayLabel;
+@property (weak, nonatomic) IBOutlet UILabel *downloadLabel;
+@property (weak, nonatomic) IBOutlet UILabel *uploadLabel;
 
 @end
 

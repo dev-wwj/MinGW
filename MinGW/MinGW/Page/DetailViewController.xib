@@ -10,8 +10,14 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController">
             <connections>
+                <outlet property="addressLabel" destination="tZg-UF-Vr5" id="a8c-5S-V9E"/>
                 <outlet property="container" destination="rm6-E7-DfW" id="YtK-iu-Vj5"/>
+                <outlet property="dateLabel" destination="3sB-7y-wjZ" id="GRG-3N-VYd"/>
+                <outlet property="delayLabel" destination="5sU-2Z-LG4" id="zBm-Mh-LPp"/>
+                <outlet property="downloadLabel" destination="BCb-ww-brf" id="rye-cv-OfB"/>
                 <outlet property="lineBox" destination="ep6-a8-sns" id="j7N-pm-DZj"/>
+                <outlet property="statusLabel" destination="YtS-ru-s44" id="w2l-fR-UCt"/>
+                <outlet property="uploadLabel" destination="DBs-Tp-0cP" id="Rkn-q9-Kw3"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -63,21 +69,21 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5sU-2Z-LG4">
-                                    <rect key="frame" x="83" y="15" width="18" height="18"/>
+                                    <rect key="frame" x="83" y="15" width="53" height="18"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="389" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BCb-ww-brf">
-                                    <rect key="frame" x="83" y="40" width="30" height="18"/>
+                                    <rect key="frame" x="83" y="40" width="65" height="18"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DBs-Tp-0cP">
-                                    <rect key="frame" x="83" y="65" width="18" height="18"/>
+                                    <rect key="frame" x="83" y="65" width="53" height="18"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
