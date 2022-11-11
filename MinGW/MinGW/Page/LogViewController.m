@@ -8,6 +8,7 @@
 #import "LogViewController.h"
 #import "LogCell.h"
 #import "DetailViewController.h"
+#import "SetViewController.h"
 
 @interface LogViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (strong, nonatomic) UITableView *tableView;
@@ -63,8 +64,12 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    DetailViewController *detail = [[DetailViewController alloc]initWithNibName:@"DetailViewController" bundle:nil];
-    [self.navigationController pushViewController:detail animated:true];
+//    DetailViewController *detail = [[DetailViewController alloc]initWithNibName:@"DetailViewController" bundle:nil];
+//    [self.navigationController pushViewController:detail animated:true];
+//    
+    SetViewController *setVC = [[SetViewController alloc]init];
+    [self.navigationController pushViewController:setVC animated:true];
+
 }
 
 

@@ -12,7 +12,25 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
-    
+}
+
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
+    [super setSelected:selected animated:animated];
+}
+
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
+    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+    if (self) {
+        self.selectionStyle = UITableViewCellSelectionStyleNone;
+        self.backgroundColor = [UIColor clearColor];
+        [self setupUI];
+    }
+    return self;
+
+}
+
+- (void)setupUI {
+
     UIView *container = [[UIView alloc] init];
     [self.contentView addSubview:container];
     [container mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -35,11 +53,9 @@
     [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.right.mas_equalTo(-30);
         make.centerY.equalTo(container);
+        make.width.mas_equalTo(20);
+        make.height.mas_equalTo(20);
     }];
-}
-
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
 }
 
 
