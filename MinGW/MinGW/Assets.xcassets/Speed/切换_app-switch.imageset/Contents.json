@@ -5,11 +5,11 @@
       "scale" : "1x"
     },
     {
-      "filename" : "切换_app-switch.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "切换_app-switch.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

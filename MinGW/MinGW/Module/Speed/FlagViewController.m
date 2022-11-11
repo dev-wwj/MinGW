@@ -20,6 +20,10 @@
     // Do any additional setup after loading the view.
     self.dataSource = @[@"american-flag-2043285__340",@"argentina-162229__340",@"china",@"germany-flag-1783774__340",@"italy-162326__340",@"nigeria-162376__340",@"swiss-flag-3109178__340",@"ukraine-162450__340",@"union-jack-1027898__340"];
     self.titleStr = @"switch";
+    self.titleColor = UIColor.whiteColor;
+    self.view.backgroundColor = UIColor.blackColor;
+    
+    [self tableView];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -59,10 +63,9 @@
         tableView.layer.cornerRadius = 20;
         tableView.layer.masksToBounds = YES;
         [tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.mas_equalTo(30);
-            make.right.mas_equalTo(-30);
-            make.bottom.mas_equalTo(-TAB_BAR_HEIGHT - 60);
-            make.height.mas_equalTo(270);
+            make.left.top.mas_equalTo(20);
+            make.right.mas_equalTo(-20);
+            make.bottom.mas_equalTo(-TAB_BAR_HEIGHT - 40);
         }];
     }
     return _tableView;
