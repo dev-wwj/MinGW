@@ -9,6 +9,7 @@
 #import "NetworkMeaskltTols.h"
 #import "CacheUnit.h"
 #import "CheckNetworkViewController.h"
+#import "FlagViewController.h"
 
 @interface SpeedViewController () {
     UIButton *_startSpeed;
@@ -214,6 +215,11 @@
 
 - (void)checkNet {
     CheckNetworkViewController *vc =[CheckNetworkViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)countryAcioon {
+    FlagViewController *vc = [FlagViewController new];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

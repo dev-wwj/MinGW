@@ -165,6 +165,8 @@
 		C60347B5291E98CA00C25C4C /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = C60347AB291E98CA00C25C4C /* AFSecurityPolicy.m */; };
 		C60347B8291E98F400C25C4C /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C60347B7291E98ED00C25C4C /* libresolv.tbd */; };
 		C60347BD291E9D7700C25C4C /* CheckTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C60347BC291E9D7700C25C4C /* CheckTableViewCell.m */; };
+		C60347C0291EA2D000C25C4C /* FlagTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C60347BF291EA2D000C25C4C /* FlagTableViewCell.m */; };
+		C60347C3291EA2DE00C25C4C /* FlagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C60347C2291EA2DE00C25C4C /* FlagViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -491,6 +493,10 @@
 		C60347B7291E98ED00C25C4C /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		C60347BB291E9D7700C25C4C /* CheckTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckTableViewCell.h; sourceTree = "<group>"; };
 		C60347BC291E9D7700C25C4C /* CheckTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckTableViewCell.m; sourceTree = "<group>"; };
+		C60347BE291EA2D000C25C4C /* FlagTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlagTableViewCell.h; sourceTree = "<group>"; };
+		C60347BF291EA2D000C25C4C /* FlagTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlagTableViewCell.m; sourceTree = "<group>"; };
+		C60347C1291EA2DE00C25C4C /* FlagViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlagViewController.h; sourceTree = "<group>"; };
+		C60347C2291EA2DE00C25C4C /* FlagViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlagViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1041,6 +1047,8 @@
 				7FAA1516291E764900775CB3 /* SpeedViewController.m */,
 				C6034799291E986600C25C4C /* CheckNetworkViewController.h */,
 				C603479A291E986600C25C4C /* CheckNetworkViewController.m */,
+				C60347C1291EA2DE00C25C4C /* FlagViewController.h */,
+				C60347C2291EA2DE00C25C4C /* FlagViewController.m */,
 			);
 			path = Speed;
 			sourceTree = "<group>";
@@ -1102,6 +1110,8 @@
 		C60347BA291E9D6700C25C4C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C60347BE291EA2D000C25C4C /* FlagTableViewCell.h */,
+				C60347BF291EA2D000C25C4C /* FlagTableViewCell.m */,
 				C60347BB291E9D7700C25C4C /* CheckTableViewCell.h */,
 				C60347BC291E9D7700C25C4C /* CheckTableViewCell.m */,
 			);
@@ -1246,6 +1256,7 @@
 				7FAA1491291E735800775CB3 /* YYThreadSafeArray.m in Sources */,
 				7FAA1494291E735800775CB3 /* ViewController+MASAdditions.m in Sources */,
 				7FAA145E291E735800775CB3 /* YYTextRunDelegate.m in Sources */,
+				C60347C0291EA2D000C25C4C /* FlagTableViewCell.m in Sources */,
 				7FAA144A291E735800775CB3 /* YYImageCoder.m in Sources */,
 				7FAA149E291E735800775CB3 /* AnimationTopBackImageView.m in Sources */,
 				7FAA1460291E735800775CB3 /* NSParagraphStyle+YYText.m in Sources */,
@@ -1296,6 +1307,7 @@
 				7FAA14A6291E735800775CB3 /* AnimationTildEnd.m in Sources */,
 				7FAA148E291E735800775CB3 /* YYGestureRecognizer.m in Sources */,
 				7FAA14AC291E735800775CB3 /* AnimationWaveBegin.m in Sources */,
+				C60347C3291EA2DE00C25C4C /* FlagViewController.m in Sources */,
 				7FAA147C291E735800775CB3 /* NSObject+YYAddForARC.m in Sources */,
 				7FAA14AE291E735800775CB3 /* UIView+HHLayout.m in Sources */,
 				7FAA11C6291E733F00775CB3 /* AppDelegate.m in Sources */,
